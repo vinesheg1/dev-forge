@@ -1,5 +1,5 @@
 {
-  "name": "@your-scope/dev-forge",
+  "name": "dev-forge",
   "version": "1.0.0",
   "description": "Zero-config developer toolkit with unified CLI for linting, formatting, and Git hooks",
   "keywords": [
@@ -13,16 +13,16 @@
     "commitlint",
     "stylelint"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Vinesh EG <vinesheg@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/dev-forge.git"
+    "url": "https://github.com/vinesheg1/dev-forge.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/dev-forge/issues"
+    "url": "https://github.com/vinesheg1/dev-forge/issues"
   },
-  "homepage": "https://github.com/your-org/dev-forge#readme",
+  "homepage": "https://github.com/vinesheg1/dev-forge#readme",
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
