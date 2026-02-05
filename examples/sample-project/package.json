@@ -1,0 +1,19 @@
+{
+  "name": "my-awesome-project",
+  "version": "1.0.0",
+  "description": "Example project using @your-scope/dev-forge",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "forge init",
+    "lint": "forge check",
+    "lint:fix": "forge fix",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": ["example"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@your-scope/dev-forge": "^1.0.0"
+  }
+}

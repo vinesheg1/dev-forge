@@ -1,0 +1,51 @@
+{
+  "rules": {
+    "require-author": "error",
+    "require-description": "error",
+    "require-keywords": "warning",
+    "require-license": "error",
+    "require-name": "error",
+    "require-repository": "warning",
+    "require-version": "error",
+    "valid-values-author": ["error", ["string", "object"]],
+    "valid-values-license": ["error", ["MIT", "Apache-2.0", "BSD-3-Clause", "ISC", "GPL-3.0", "UNLICENSED"]],
+    "name-format": "error",
+    "version-format": "error",
+    "description-format": "error",
+    "prefer-alphabetical-dependencies": "warning",
+    "prefer-alphabetical-devDependencies": "warning",
+    "prefer-alphabetical-peerDependencies": "warning",
+    "prefer-alphabetical-optionalDependencies": "warning",
+    "prefer-no-engineStrict": "error",
+    "no-duplicate-properties": "error",
+    "prefer-property-order": [
+      "warning",
+      [
+        "name",
+        "version",
+        "description",
+        "keywords",
+        "author",
+        "license",
+        "homepage",
+        "repository",
+        "bugs",
+        "main",
+        "module",
+        "types",
+        "exports",
+        "bin",
+        "files",
+        "scripts",
+        "dependencies",
+        "devDependencies",
+        "peerDependencies",
+        "optionalDependencies",
+        "engines"
+      ]
+    ],
+    "require-scripts": "warning",
+    "no-absolute-version-dependencies": "warning",
+    "no-absolute-version-devDependencies": "warning"
+  }
+}

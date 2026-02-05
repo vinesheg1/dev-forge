@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["bin/cli.js"],
+  "project": ["lib/**/*.js"],
+  "ignore": ["**/*.test.js", "**/*.spec.js"],
+  "ignoreDependencies": [
+    "commander",
+    "execa",
+    "fs-extra"
+  ]
+}

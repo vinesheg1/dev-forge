@@ -1,0 +1,22 @@
+pre-commit:
+  parallel: true
+  commands:
+    biome:
+      glob: "*.{js,jsx,ts,tsx,json,jsonc}"
+      run: npx biome check --staged {staged_files}
+      stage_fixed: true
+    
+    stylelint:
+      glob: "*.{css,scss,sass}"
+      run: npx stylelint {staged_files}
+      stage_fixed: true
+    
+    package-json-lint:
+      files: git diff --name-only --cached
+      glob: "package.json"
+      run: npx npmPkgJsonLint .
+
+commit-msg:
+  commands:
+    commitlint:
+      run: npx commitlint --edit {1}
