@@ -1,4 +1,4 @@
-# Contributing to @your-scope/dev-forge
+# Contributing to dev-forge
 
 Thank you for your interest in contributing! This document provides guidelines and instructions for contributing.
 
