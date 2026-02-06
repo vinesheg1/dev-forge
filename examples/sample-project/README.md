@@ -1,6 +1,6 @@
 # Sample Project with dev-forge
 
-This is an example project demonstrating how to use `@your-scope/dev-forge`.
+This is an example project demonstrating how to use `dev-forge`.
 
 ## Setup
 
@@ -51,7 +51,7 @@ You can override any configuration by modifying the generated files. For example
 **biome.json**:
 ```json
 {
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/biome.json"],
+  "extends": ["./node_modules/dev-forge/configs/biome.json"],
   "linter": {
     "rules": {
       "suspicious": {

@@ -67,7 +67,7 @@ npm link
 mkdir test-project
 cd test-project
 npm init -y
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 ```
 
@@ -101,7 +101,7 @@ npm link
 2. Test in a sample project:
 ```bash
 cd examples/sample-project
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 npx forge check
 ```

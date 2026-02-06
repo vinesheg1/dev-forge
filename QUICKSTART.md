@@ -1,11 +1,11 @@
 # Quick Start Guide
 
-Get up and running with `@your-scope/dev-forge` in 5 minutes.
+Get up and running with `dev-forge` in 5 minutes.
 
 ## Installation
 
 ```bash
-npm install --save-dev @your-scope/dev-forge
+npm install --save-dev dev-forge
 ```
 
 ## Initialize
@@ -120,7 +120,7 @@ Example - Disable a Biome rule:
 **biome.json**:
 ```json
 {
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/biome.json"],
+  "extends": ["./node_modules/dev-forge/configs/biome.json"],
   "linter": {
     "rules": {
       "suspicious": {

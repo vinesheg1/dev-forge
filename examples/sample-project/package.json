@@ -1,7 +1,7 @@
 {
   "name": "my-awesome-project",
   "version": "1.0.0",
-  "description": "Example project using @your-scope/dev-forge",
+  "description": "Example project using dev-forge",
   "main": "index.js",
   "scripts": {
     "prepare": "forge init",
@@ -14,6 +14,6 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "@your-scope/dev-forge": "^1.0.0"
+    "dev-forge": "^1.0.0"
   }
 }

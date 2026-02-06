@@ -1,4 +1,4 @@
-// Type definitions for @your-scope/dev-forge
+// Type definitions for dev-forge
 
 export interface InitOptions {
   skipHooks?: boolean;

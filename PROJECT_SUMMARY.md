@@ -1,4 +1,4 @@
-# @your-scope/dev-forge - Complete Package Summary
+# dev-forge - Complete Package Summary
 
 ## 🎯 Project Overview
 
@@ -32,7 +32,7 @@ forge fix                      # Auto-fix issues
 ## 📁 Complete Package Structure
 
 ```
-@your-scope/dev-forge/
+dev-forge/
 ├── 📂 bin/
 │   └── cli.js                   # CLI entry point
 ├── 📂 lib/
@@ -75,7 +75,7 @@ forge fix                      # Auto-fix issues
 
 ### Installation
 ```bash
-npm install --save-dev @your-scope/dev-forge
+npm install --save-dev dev-forge
 ```
 
 ### Initialize
@@ -178,7 +178,7 @@ Validates commit message format:
 
 ```bash
 # 1. Developer installs package
-npm install --save-dev @your-scope/dev-forge
+npm install --save-dev dev-forge
 
 # 2. Initialize (auto-runs via prepare script)
 npm install  # Runs `forge init`
@@ -207,7 +207,7 @@ Users can override any default configuration:
 ```json
 // biome.json
 {
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/biome.json"],
+  "extends": ["./node_modules/dev-forge/configs/biome.json"],
   "linter": {
     "rules": {
       "suspicious": {
@@ -246,7 +246,7 @@ See PUBLISHING.md for complete guide.
 ```bash
 npm link                    # Link globally
 cd test-project            # Go to test project
-npm link @your-scope/dev-forge  # Link package
+npm link dev-forge  # Link package
 npx forge init             # Test init
 npx forge check            # Test check
 npx forge fix              # Test fix

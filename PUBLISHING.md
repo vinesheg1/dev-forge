@@ -1,6 +1,6 @@
 # Publishing Guide
 
-This guide walks you through publishing `@your-scope/dev-forge` to npm.
+This guide walks you through publishing `dev-forge` to npm.
 
 ## Pre-requisites
 
@@ -16,7 +16,7 @@ Replace `@your-scope` with your actual npm organization or username:
 
 ```bash
 # In package.json, change:
-"name": "@your-scope/dev-forge"
+"name": "dev-forge"
 # To:
 "name": "@your-org/dev-forge"
 ```
@@ -84,7 +84,7 @@ npx forge check
 npm link
 
 # In a test project
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 ```
 
@@ -154,12 +154,12 @@ jobs:
 
 1. **Verify publication**:
 ```bash
-npm view @your-scope/dev-forge
+npm view dev-forge
 ```
 
 2. **Test installation from npm**:
 ```bash
-npm install -g @your-scope/dev-forge
+npm install -g dev-forge
 forge --version
 ```
 
@@ -230,7 +230,7 @@ Wait a few minutes for npm's CDN to update, then check again.
 If you need to deprecate a version:
 
 ```bash
-npm deprecate @your-scope/dev-forge@1.0.0 "This version has a critical bug, please upgrade"
+npm deprecate dev-forge@1.0.0 "This version has a critical bug, please upgrade"
 ```
 
 ## Unpublishing (Use with Caution)
@@ -238,7 +238,7 @@ npm deprecate @your-scope/dev-forge@1.0.0 "This version has a critical bug, plea
 You can only unpublish within 72 hours of publishing:
 
 ```bash
-npm unpublish @your-scope/dev-forge@1.0.0
+npm unpublish dev-forge@1.0.0
 ```
 
 **Note**: Unpublishing is discouraged as it breaks dependent projects.

@@ -1,6 +1,6 @@
 # Architecture Documentation
 
-This document explains the internal architecture of `@your-scope/dev-forge`.
+This document explains the internal architecture of `dev-forge`.
 
 ## Design Philosophy
 
@@ -19,7 +19,7 @@ Running `forge init` multiple times is safe and won't break existing configurati
 ## Project Structure
 
 ```
-@your-scope/dev-forge/
+dev-forge/
 ├── bin/
 │   └── cli.js              # CLI entry point (commander)
 ├── lib/

@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-02-05
 
 ### Added
-- Initial release of @your-scope/dev-forge
+- Initial release of dev-forge
 - Biome integration for JS/TS/JSON linting and formatting
 - Knip integration for dead code detection
 - Lefthook integration for Git hooks

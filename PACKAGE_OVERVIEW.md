@@ -1,10 +1,10 @@
 # Package Overview
 
-Complete overview of the `@your-scope/dev-forge` package structure and contents.
+Complete overview of the `dev-forge` package structure and contents.
 
 ## Package Information
 
-- **Name**: `@your-scope/dev-forge`
+- **Name**: `dev-forge`
 - **Version**: 1.0.0
 - **Description**: Zero-config developer toolkit with unified CLI
 - **License**: MIT
@@ -13,7 +13,7 @@ Complete overview of the `@your-scope/dev-forge` package structure and contents.
 ## Complete Directory Structure
 
 ```
-@your-scope/dev-forge/
+dev-forge/
 │
 ├── 📁 bin/                         # CLI executables
 │   └── cli.js                      # Main CLI entry point (commander)
@@ -295,4 +295,4 @@ Built on top of these excellent open-source projects:
 
 **Package Maintainer**: Your Name <your.email@example.com>  
 **Repository**: https://github.com/your-org/dev-forge  
-**NPM**: https://www.npmjs.com/package/@your-scope/dev-forge
+**NPM**: https://www.npmjs.com/package/dev-forge

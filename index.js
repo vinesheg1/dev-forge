@@ -1,5 +1,5 @@
 /**
- * @your-scope/dev-forge
+ * dev-forge
  * Zero-config developer toolkit with unified CLI
  */
 

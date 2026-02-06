@@ -143,7 +143,7 @@ All tools come pre-configured with sensible defaults, but you can customize them
 ```json
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/biome.json"]
+  "extends": ["./node_modules/dev-forge/configs/biome.json"]
 }
 ```
 
@@ -151,7 +151,7 @@ Add your own rules or override defaults:
 
 ```json
 {
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/biome.json"],
+  "extends": ["./node_modules/dev-forge/configs/biome.json"],
   "linter": {
     "rules": {
       "suspicious": {
@@ -166,7 +166,7 @@ Add your own rules or override defaults:
 
 ```json
 {
-  "extends": ["./node_modules/@your-scope/dev-forge/configs/stylelint.json"]
+  "extends": ["./node_modules/dev-forge/configs/stylelint.json"]
 }
 ```
 
@@ -174,7 +174,7 @@ Add your own rules or override defaults:
 
 ```json
 {
-  "extends": "./node_modules/@your-scope/dev-forge/configs/pkg-lint.json"
+  "extends": "./node_modules/dev-forge/configs/pkg-lint.json"
 }
 ```
 
@@ -295,7 +295,7 @@ npx forge init
 
 ## Philosophy
 
-`@your-scope/dev-forge` follows the principle of **convention over configuration**. It provides:
+`dev-forge` follows the principle of **convention over configuration**. It provides:
 
 1. **Sensible defaults** that work for most projects
 2. **Easy customization** when you need it

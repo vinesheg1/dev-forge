@@ -1,6 +1,6 @@
 # Testing Your Package Before Publishing
 
-Follow these steps to test `@your-scope/dev-forge` locally before publishing to npm.
+Follow these steps to test `dev-forge` locally before publishing to npm.
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ npm init -y
 ### 3.2 Link Your Package
 
 ```bash
-npm link @your-scope/dev-forge
+npm link dev-forge
 ```
 
 ### 3.3 Initialize the Toolkit
@@ -286,7 +286,7 @@ cat package.json
 mkdir ~/test-no-git
 cd ~/test-no-git
 npm init -y
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 ```
 
@@ -297,7 +297,7 @@ npx forge init
 ```bash
 mkdir ~/test-empty
 cd ~/test-empty
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge check
 ```
 
@@ -352,7 +352,7 @@ npx forge init
 
 Use WSL or a Windows machine:
 ```bash
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 npx forge check
 ```
@@ -360,7 +360,7 @@ npx forge check
 ### 10.2 Test on macOS (if available)
 
 ```bash
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 npx forge check
 ```
@@ -377,7 +377,7 @@ Clone a large open-source project:
 ```bash
 git clone https://github.com/facebook/react.git
 cd react
-npm link @your-scope/dev-forge
+npm link dev-forge
 npx forge init
 time npx forge check
 ```
@@ -397,7 +397,7 @@ time npx forge check --no-parallel
 
 From test projects:
 ```bash
-npm unlink @your-scope/dev-forge
+npm unlink dev-forge
 ```
 
 From package directory:
