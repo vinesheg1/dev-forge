@@ -1,4 +1,4 @@
-# @your-scope/dev-forge
+# dev-forge
 
 > Zero-config developer toolkit with unified CLI for modern projects
 
@@ -25,13 +25,13 @@ A single-dependency meta-package that provides comprehensive tooling for linting
 ## Installation
 
 ```bash
-npm install --save-dev @your-scope/dev-forge
+npm install --save-dev dev-forge
 ```
 
 Or with yarn:
 
 ```bash
-yarn add --dev @your-scope/dev-forge
+yarn add --dev dev-forge
 ```
 
 ## Quick Start
