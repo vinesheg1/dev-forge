@@ -48,7 +48,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-org/dev-forge.git
+git clone https://github.com/vinesheg1/dev-forge.git
 cd dev-forge
 ```
 

@@ -167,5 +167,5 @@ npx forge --help
 ## Support
 
 - 📖 [Documentation](./README.md)
-- 🐛 [Report Issues](https://github.com/your-org/dev-forge/issues)
-- 💬 [Discussions](https://github.com/your-org/dev-forge/discussions)
+- 🐛 [Report Issues](https://github.com/vinesheg1/dev-forge/issues)
+- 💬 [Discussions](https://github.com/vinesheg1/dev-forge/discussions)

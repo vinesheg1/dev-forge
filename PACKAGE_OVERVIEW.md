@@ -294,5 +294,5 @@ Built on top of these excellent open-source projects:
 ---
 
 **Package Maintainer**: Your Name <your.email@example.com>  
-**Repository**: https://github.com/your-org/dev-forge  
+**Repository**: https://github.com/vinesheg1/dev-forge  
 **NPM**: https://www.npmjs.com/package/dev-forge

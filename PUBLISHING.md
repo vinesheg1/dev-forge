@@ -18,7 +18,7 @@ Replace `@your-scope` with your actual npm organization or username:
 # In package.json, change:
 "name": "dev-forge"
 # To:
-"name": "@your-org/dev-forge"
+"name": "dev-forge"
 ```
 
 ### 2. Update Repository URLs
@@ -28,12 +28,12 @@ In `package.json`, update:
 {
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/dev-forge.git"
+    "url": "https://github.com/vinesheg1/dev-forge.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/dev-forge/issues"
+    "url": "https://github.com/vinesheg1/dev-forge/issues"
   },
-  "homepage": "https://github.com/your-org/dev-forge#readme"
+  "homepage": "https://github.com/vinesheg1/dev-forge#readme"
 }
 ```
 
