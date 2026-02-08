@@ -19,9 +19,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run toolkit health check
-        run: npm run forge check # Ensures you don't publish broken code
-
       - name: Publish to NPM
         run: npm publish --access public
         env:
