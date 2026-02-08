@@ -1,8 +1,8 @@
 {
-  "rules": {
-    "require-author": "error",
-    "require-license": "error",
-    "require-repository": "error",
-    "prefer-alphabetical-dependencies": "error"
-  }
+	"rules": {
+		"require-author": "error",
+		"require-license": "error",
+		"require-repository": "error",
+		"prefer-alphabetical-dependencies": "error"
+	}
 }

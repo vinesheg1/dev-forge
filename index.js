@@ -3,27 +3,27 @@
  * Zero-config developer toolkit with unified CLI
  */
 
-const { initToolkit } = require('./lib/init');
+const { initToolkit } = require("./lib/init");
 const {
-  runCheck,
-  runFix,
-  runBiomeStaged,
-  runStylelintStaged,
-  getToolBin,
-  runCommand,
-} = require('./lib/runner');
+	runCheck,
+	runFix,
+	runBiomeStaged,
+	runStylelintStaged,
+	getToolBin,
+	runCommand,
+} = require("./lib/runner");
 
 module.exports = {
-  // Initialization
-  initToolkit,
+	// Initialization
+	initToolkit,
 
-  // Runners
-  runCheck,
-  runFix,
-  runBiomeStaged,
-  runStylelintStaged,
+	// Runners
+	runCheck,
+	runFix,
+	runBiomeStaged,
+	runStylelintStaged,
 
-  // Utilities
-  getToolBin,
-  runCommand,
+	// Utilities
+	getToolBin,
+	runCommand,
 };

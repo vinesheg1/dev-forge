@@ -1,18 +1,18 @@
 {
-  "$schema": "https://unpkg.com/knip@5/schema.json",
-  "entry": ["bin/cli.js"],
-  "project": ["lib/**/*.js"],
-  "ignore": ["**/*.test.js", "**/*.spec.js"],
-  "ignoreDependencies": [
-    "commander",
-    "execa",
-    "fs-extra",
-    "@biomejs/biome",
-    "@commitlint/cli",
-    "@commitlint/config-conventional",
-    "lefthook",
-    "npm-package-json-lint",
-    "stylelint",
-    "stylelint-config-standard"
-  ]
+	"$schema": "https://unpkg.com/knip@5/schema.json",
+	"entry": ["bin/cli.js"],
+	"project": ["lib/**/*.js"],
+	"ignore": ["**/*.test.js", "**/*.spec.js"],
+	"ignoreDependencies": [
+		"commander",
+		"execa",
+		"fs-extra",
+		"@biomejs/biome",
+		"@commitlint/cli",
+		"@commitlint/config-conventional",
+		"lefthook",
+		"npm-package-json-lint",
+		"stylelint",
+		"stylelint-config-standard"
+	]
 }

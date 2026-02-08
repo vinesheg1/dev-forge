@@ -1,11 +1,11 @@
 // Type definitions for dev-forge
 
 export interface InitOptions {
-  skipHooks?: boolean;
+	skipHooks?: boolean;
 }
 
 export interface CheckOptions {
-  parallel?: boolean;
+	parallel?: boolean;
 }
 
 /**
@@ -33,9 +33,9 @@ export function getToolBin(toolName: string): string;
  * Run a command and handle output
  */
 export function runCommand(
-  command: string,
-  args: string[],
-  options?: Record<string, any>
+	command: string,
+	args: string[],
+	options?: Record<string, any>,
 ): Promise<any>;
 
 /**
