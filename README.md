@@ -1,5 +1,5 @@
-[![NPM Version](https://img.shields.io/npm/v/dev-forge)](https://www.npmjs.com/package/dev-forge)
-[![Build Status](https://github.com/vinesheg1/dev-forge/actions/workflows/publish.yml/badge.svg)](https://github.com/vinesheg1/dev-forge/actions)
+[![NPM Version](https://img.shields.io/npm/v/@vinesheg/dev-forge)](https://www.npmjs.com/package/@vinesheg/dev-forge)
+[![Publish to NPM](https://github.com/vinesheg1/dev-forge/actions/workflows/publish.yml/badge.svg)](https://github.com/vinesheg1/dev-forge/actions)
 [![License](https://img.shields.io/github/license/vinesheg1/dev-forge)](https://github.com/vinesheg1/dev-forge/blob/main/LICENSE)
 # dev-forge
 
