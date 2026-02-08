@@ -1,6 +1,6 @@
 [![NPM Version](https://img.shields.io/npm/v/@vinesheg/dev-forge)](https://www.npmjs.com/package/@vinesheg/dev-forge)
 [![Publish to NPM](https://github.com/vinesheg1/dev-forge/actions/workflows/publish.yml/badge.svg)](https://github.com/vinesheg1/dev-forge/actions)
-[![License](https://img.shields.io/github/license/vinesheg1/dev-forge)](https://github.com/vinesheg1/dev-forge/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/vinesheg1/dev-forge?cache=1)](https://github.com/vinesheg1/dev-forge/blob/main/LICENSE)
 # dev-forge
 
 > Zero-config developer toolkit with unified CLI for modern projects
