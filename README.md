@@ -28,13 +28,12 @@ A single-dependency meta-package that provides comprehensive tooling for linting
 ## Installation
 
 ```bash
-npm install --save-dev dev-forge
-```
+npm install -D @vinesheg/dev-forge```
 
 Or with yarn:
 
 ```bash
-yarn add --dev dev-forge
+yarn add --dev @vinesheg/dev-forge
 ```
 
 ## Quick Start
