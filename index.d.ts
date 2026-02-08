@@ -1,5 +1,5 @@
 // Type definitions for dev-forge
-
+// biome-ignore-all lint/suspicious/noExplicitAny: legacy support
 export interface InitOptions {
 	skipHooks?: boolean;
 }

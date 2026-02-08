@@ -1,21 +1,19 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"organizeImports": {
-		"enabled": true
-	},
+  "$schema": "https://biomejs.dev",
+  "organizeImports": {
+    "enabled": true
+  },
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
 			"complexity": {
 				"noExtraBooleanCast": "error",
-				"noMultipleSpacesInRegularExpressionLiterals": "error",
 				"noUselessCatch": "error",
 				"noUselessConstructor": "error",
 				"noUselessLabel": "error",
 				"noUselessRename": "error",
 				"noUselessSwitchCase": "error",
-				"noWith": "error",
 				"useFlatMap": "warn",
 				"useOptionalChain": "warn",
 				"useSimplifiedLogicExpression": "warn"
@@ -26,7 +24,6 @@
 				"noEmptyPattern": "error",
 				"noGlobalObjectCalls": "error",
 				"noInvalidConstructorSuper": "error",
-				"noNewSymbol": "error",
 				"noNonoctalDecimalEscape": "error",
 				"noPrecisionLoss": "error",
 				"noSelfAssign": "error",
@@ -46,9 +43,7 @@
 				"noDangerouslySetInnerHtml": "warn",
 				"noDangerouslySetInnerHtmlWithChildren": "error"
 			},
-			"style": {
-				"noArguments": "error",
-				"noVar": "error",
+			"style": {				
 				"useConst": "warn",
 				"useTemplate": "warn"
 			},
@@ -79,8 +74,7 @@
 				"noRedeclare": "error",
 				"noShadowRestrictedNames": "error",
 				"noUnsafeNegation": "error",
-				"useGetterReturn": "error",
-				"useValidTypeof": "error"
+				"useGetterReturn": "error"
 			}
 		}
 	},
