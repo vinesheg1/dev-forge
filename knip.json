@@ -6,6 +6,13 @@
   "ignoreDependencies": [
     "commander",
     "execa",
-    "fs-extra"
+    "fs-extra",
+    "@biomejs/biome",
+    "@commitlint/cli",
+    "@commitlint/config-conventional",
+    "lefthook",
+    "npm-package-json-lint",
+    "stylelint",
+    "stylelint-config-standard"
   ]
 }
